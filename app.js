@@ -12,8 +12,6 @@ if (args.length !== 2) {
 
 const [temperature, weather] = args;
 
-/* This example uses nested conditional statements to also give recommendations for different weather states at different temperatures */
-
 if (temperature < 5) {
   console.log("- a winter coat");
   console.log("- a hat and scarf");
